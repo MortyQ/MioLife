@@ -1,0 +1,25 @@
+.main_slider_body {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 20px;
+    /* width: 50%; */
+    height: 100%;
+    border: 3px solid black;
+}
+
+.main_slider_body img{
+ width: 100%;
+}
+
+.main_slider_body ul li {
+    list-style: none;
+}
+
+.swiper-container {
+    width: 500px;
+}
+
+
+.swiper-wrapper  {
+    padding-inline-start: 0;
+}

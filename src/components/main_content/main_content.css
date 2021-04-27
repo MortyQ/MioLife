@@ -1,0 +1,7 @@
+.main_wrapper {
+    width: 99vw;
+    height: 100vh;
+    border: 3px solid red;
+    display: flex;
+    background: white;
+}
