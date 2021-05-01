@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, {Navigation, Pagination, Controller , Thumbs} from 'swiper';
+import SwiperCore, {Navigation, Pagination, Controller , Thumbs} from 'swiper'
 import 'swiper/swiper-bundle.css';
 import './main_slider.css'
 import Slider1 from '../../img/slider1.jpg'
@@ -55,12 +55,7 @@ const MainSlider =()=>{
                 onInit={(swiper)=> console.log('Swiper initialized!',swiper) } 
                 onSlideChange={(swiper) => (console.log('index changed to: ',swiper.activeIndex))}  
                 onReachEnd ={()=> console.log('Swiper end reached')} >
-                        <SwiperSlide tag='li' >
-                            <img src={Slider1} alt='Slider1'/>
-                        </SwiperSlide>
-                        <SwiperSlide tag='li' >
-                            <img src={Slider2} alt='Slider1'/>
-                        </SwiperSlide>
+                        
                         <SwiperSlide tag='li'  >
                             <img src={Slider3} alt='Slider1'/>
                         </SwiperSlide>
@@ -85,9 +80,12 @@ const MainSlider =()=>{
                         <SwiperSlide tag='li'  >
                             <img src={BottomSlider5} alt='Slider1'/>
                         </SwiperSlide>
+                        <SwiperSlide tag='li' >
+                            <img src={Slider1} alt='Slider1'/>
+                        </SwiperSlide>
                      </Swiper>
 
-                    <Swiper id='thumbs'
+                    {/* <Swiper id='thumbs'
                     spaceBetween={5}
                     slidesPerView={3}
                     onSwiper={setThumbsSwiper}
@@ -122,7 +120,7 @@ const MainSlider =()=>{
                         <SwiperSlide tag='li'  >
                             <img src={BottomSlider5} className='small_img' alt='Slider1'/>
                         </SwiperSlide>
-                    </Swiper>
+                    </Swiper> */}
 
                     {/* <Swiper id='controller' 
                     onSwiper={setControlledSwiper}

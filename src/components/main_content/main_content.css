@@ -1,7 +1,7 @@
 .main_wrapper {
+    padding-top: 3%;
     width: 99vw;
-    height: 100vh;
-    border: 3px solid red;
+    height: 70vh;
     display: flex;
-    background: white;
+    background:#fff6d4, rgb(255, 246, 212), cmyk(0, 4, 17, 0);
 }

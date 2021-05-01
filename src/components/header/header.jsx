@@ -1,12 +1,13 @@
 import React, {useState, useEffect} from "react";
-import {Parallax} from 'react-parallax';
+
 import './header.css' ;
-import head from '../img/head.jpg';
+
 import HeaderNavigation from './header_navigation/header_navigation';
 
 
 
 const Header  =()=>{
+
 
 
     // const [offsetY,setOffsetY] = useState(0);
@@ -25,6 +26,8 @@ const Header  =()=>{
 
     return (
         <div className="wrapper_header"  >
+
+
             {/* <div className="purpl_panel">
                     <div className="purpl_panel_text">
                         <p className='purpl_panel_text_childrendItsAll'>Дети наше все!</p>
@@ -38,11 +41,7 @@ const Header  =()=>{
 
 
 
-            <Parallax  className="header_main_img" bgImage={head} strength={400} >
-                <div  className="header_main_img_div" >
-                   
-                </div>
-            </Parallax>
+            
 
 
 
