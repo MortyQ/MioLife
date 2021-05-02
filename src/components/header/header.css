@@ -3,79 +3,23 @@
     height: 15vh;
    
 }
-/* 
-.purpl_panel {
-    width: 100%;
-    height: 4%;
-    background-color: #e84393;
-    display: block;
-    position: relative;
-    
-}
 
-.purpl_panel_text {
+.header_parallax_h1 {
+   width: 100%;
    display: flex;
-   flex-direction: row;
-   align-items: center;
-   padding: 2px;
-    border: 0;
-    justify-content: flex-start;
-    font-family: inherit;
-    text-align:  center;
-} */
-
-/* 
-.purpl_panel_text p {
-    text-indent: 1.5em;
-    vertical-align: baseline;
-    padding-left: 3px;
-    color: white;
-    font-size: 1.1rem;
+   padding: 0;
+   margin: 0;
+   color: white;
+   justify-content: center;
+   text-align: center;
+  margin-bottom: 25%;
+  
 }
 
-.purpl_panel_text p a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.3rem;
-    text-align: justify;
-} */
+.header_parallax_h1 h1 {
+  font-size: 4rem;
+}
 
-
-/* 
-.purpl_panel_text p a,
-.purpl_panel_text p a:after,
-.purpl_panel_text p a:before {
-    transition: all .5s;
-
-  }
-  .purpl_panel_text p a:hover {
-    color: black;
-  }
-
-  .purpl_panel_text p a {
-    transition: all 2s;
-  }
-
-  .purpl_panel_text p a:after {
-    text-align: left;
-    content: '.';
-    margin: 0;
-    opacity: 0;
-  }
-  .purpl_panel_text p a:hover {
-    color:black;
-    z-index: 1;
-  }
-  .purpl_panel_text p a:hover:after {
-
-    z-index: -10;
-    animation: fill 1s forwards;
-    -webkit-animation: fill 1s forwards;
-    -moz-animation: fill 1s forwards;
-    opacity: 1;
-  }
-
-   */
 
    .header_main_img {
      width: 99vw;
@@ -84,8 +28,34 @@
      z-index: -10;
      position: relative;
      display:flex;
+     align-items: center;
    }
 
-   .header_main_img_div {
-     width: 300px;
-   }
+
+   @media screen and (max-width: 990px){
+    .header_main_img {
+      flex-direction: column;
+      font-size: 2rem;
+      height: 30vh;
+      align-items: flex-start;
+        justify-content: center;
+        width: 100vw;
+    
+    }
+
+    .header_navigation_bootstrap_navbar {
+      max-height: 7vh;
+      
+    }
+
+    .wrapper_header {
+      height: 5vh;
+    }
+
+      .header_parallax_h1 {
+        margin-right: 30%;
+        padding-right: 20%;
+      }
+
+  }
+ 

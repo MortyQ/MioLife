@@ -8,6 +8,8 @@
   padding-left: 2%;
   width: 99vw;
   height: 15vh;
+  position: fixed;
+  z-index: 999;
 }
 
 
@@ -15,6 +17,12 @@
   background: #fff6d4, rgb(255, 246, 212), cmyk(0, 4, 17, 0)!important;
 }
 
+.header_navigation_dropdown {
+  font-family: 'Neucha', cursive;
+  color: #db406e;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
 .header_navigation_mainText  h1 {
   font-size: 3rem;
@@ -32,6 +40,8 @@ color: #db406e;
     color: #db406e;
     font-family: 'Neucha', cursive;
     font-size: 2rem;
+    white-space: nowrap;
+    margin-left: 30px;
 }
 
 
@@ -41,7 +51,10 @@ color: #db406e;
       flex-direction: column;
       font-size: 2rem;
       justify-content: flex-start;
+    }
 
+    .header_navigation_bootstrap_navbar {
+      width: 100vw;
     }
   
 

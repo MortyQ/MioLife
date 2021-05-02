@@ -43,7 +43,7 @@ const MainSlider =()=>{
 
     return(
         <div className="main_slider_body">
-                <Swiper id='main'
+                <Swiper id='main' className='main_slider_Swiper'
                 thumbs={{swiper: thumbsSwiper}} 
                 controller={{control: controlledSwiper}}
                 tag='section'  

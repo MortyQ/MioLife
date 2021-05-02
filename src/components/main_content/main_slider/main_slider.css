@@ -1,9 +1,12 @@
 .main_slider_body {
     display: flex;
-    align-items: flex-start;
-    /* width: 50%; */
-    height: 100%;
-    flex-direction: column;
+   width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.main_slider_Swiper {
+    margin-left: 20%;
 }
 
 .main_slider_body img{
