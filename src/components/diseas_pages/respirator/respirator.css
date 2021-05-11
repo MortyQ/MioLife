@@ -1,0 +1,20 @@
+.img_respirator {
+    display:flex;
+}
+
+.img_respirator a {
+    margin-right: 2.5%;
+}
+
+.respirator_wrapper {
+    width: 100%;
+}
+
+.p_respirator {
+    padding-right: 2%;
+    width: 115%;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+}

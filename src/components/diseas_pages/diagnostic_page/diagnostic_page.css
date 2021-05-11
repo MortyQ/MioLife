@@ -1,0 +1,69 @@
+.diagnostic_page_wrapper {
+    width: 99vw;
+    height: 80vh;
+    position: relative;
+    top: 8.2%;
+    z-index: 9;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper_exit_menu {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10%;
+    background-color: rgba(247, 247, 247, 1);
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: #db406e;
+    font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Neucha', cursive;
+}
+
+.wrapper_exit_menu a{
+    color: #db406e;
+
+}
+
+.wrapper_exit_menu p {
+    display: flex;
+    align-self: center;
+    padding-left: 10px;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    
+}
+
+.diagnostic_page_text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    
+    font-family: 'Bad Script', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.6rem;
+}
+
+.diagnostic_page_text h4,h5 {
+    font-size: 2.5rem;
+}
+
+.exit_menu_a_plus_text{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.diagnostic_ul li {
+    margin-left: 25px;
+    list-style-type:disc!important;
+}
