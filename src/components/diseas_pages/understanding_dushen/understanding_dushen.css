@@ -1,0 +1,30 @@
+.understanding_dushen_text {
+    width: 110%;
+}
+
+.understanding_dushen_text h4{
+    text-align: center;
+}
+
+.understanding_dushen_text p {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    width: 115%;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.img_understanding_dushen {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.img_understanding_dushen img {
+    width: 60%;
+    margin-right: 3%;
+}

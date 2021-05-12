@@ -1,0 +1,14 @@
+.info_help_head_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.info_for_helping_wrapper h4 {
+        text-align: center;
+        padding-bottom: 3%;
+        padding-top: 2%;
+}
+
+.info_for_helping_wrapper p {
+    width: 125%;
+}
