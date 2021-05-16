@@ -1,0 +1,56 @@
+.parallax_img_foot {
+    width: 99vw;
+    height: 100vh;
+     background-size:cover;
+     z-index: -10;
+     position: relative;
+     display:flex;
+     align-items: center;
+}
+
+footer {
+    width: 99vw;
+    height: 30vh;
+    background: #f8f9fa!important;
+    display: flex;
+    flex-direction: row;
+}
+
+#scrollToTopBtn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+  }
+
+.footer_right1{
+    width: 80%;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+.arrow_up {
+    width: 100%;
+    font-size: 4rem;
+    color: black;
+}
+
+.btn_up {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_left {
+    width: 50%;
+    border: 1px solid #000;
+}
+
+.footer_right {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}

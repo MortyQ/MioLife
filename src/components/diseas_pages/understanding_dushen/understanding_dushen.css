@@ -1,9 +1,8 @@
-.understanding_dushen_text {
-    width: 110%;
-}
-
-.understanding_dushen_text h4{
-    text-align: center;
+.understanding_dushen_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3%;
 }
 
 .understanding_dushen_text p {

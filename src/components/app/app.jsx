@@ -13,6 +13,9 @@ import FamilyTraining from '../diseas_pages/family_training/family_training'
 import InfoForHelping from '../diseas_pages/info_for_helping/info_for_helping'
 import PhysTherap from '../diseas_pages/phys_theraph/phys_theraph'
 import Respirator from '../diseas_pages/respirator/respirator'
+import ContactsPage from '../contacts_page/contacts_page'
+import FooterParallax from '../footer/footer_parallax'
+import Footer from '../footer/footer'
 
 
 const App =()=> {
@@ -45,7 +48,10 @@ const App =()=> {
             component = {InfoForHelping}/>
             <Route path = '/family_training'
             component = {FamilyTraining}/>
-  
+            <Route path = '/contacts'
+            component = {ContactsPage}/>
+            <FooterParallax />
+            <Footer />
 
 {/*       
       <HeaderParallax />

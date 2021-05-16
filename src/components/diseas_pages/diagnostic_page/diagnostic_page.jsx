@@ -24,7 +24,7 @@ const DiagnosticPage =()=>{
                 {exitPanel('Диагностика','/main','Про Нас ', '  Диагностика')}
 
 
-                <div className="diagnostic_page_text">
+                <div className="diagnostic_page_text"> 
                     <h4>У кожної родини своя історія.</h4>
                     
                     <p>

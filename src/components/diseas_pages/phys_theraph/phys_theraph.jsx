@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import './phys_theraph.css'
 import {Col, Row, Container} from "react-bootstrap"
+import PhysImg from '../../img/phys_therap.jpg'
 
 
 const PhysTherap =()=>{
@@ -21,9 +22,10 @@ const PhysTherap =()=>{
 
 
     return(
-        <div className="phys_therap_wrapper">
+        <div className="phys_therap_wrapper understanding_dushen_wrapper">
              {exitPanel('Фізична терапія у дітей з м’язовою дистрофією Дюшенна (МДД)','/main','Про Нас ', '  Фізична терапія у дітей з м’язовою дистрофією Дюшенна (МДД)')}
-             <Container>
+          
+
 
           
              <div className="diagnostic_page_text">
@@ -61,15 +63,14 @@ const PhysTherap =()=>{
                     <p>Вибір терапії повинен бути заснований на клінічних даних, поточної стадії захворювання і індивідуальних потребах дитини.</p>
                     <p>Для залучення дитини в процес фізичної терапії, атмосфера приміщення повинна бути оформлена в яскравій і ігровій манері. Вправи повинні адаптуватися відповідно до ігровим інтересам дитини в повсякденному житті.</p>
                     <p>При МДД категорично протипоказано перенапруження. Фізичний терапевт повинен завжди дотримуватися допустимого навантаження і ні в якому разі не перевищувати індивідуальний ліміт витривалості.</p>
-                    <h4>У цій брошурі Ви зможете ознайомитися з основними прийомами розтяжок.</h4>
                     <div className="img_phys_theraph">
+                    <h4 className='img_phys_theraph_h4_text' >У цій брошурі Ви зможете ознайомитися з основними прийомами розтяжок.</h4>
                         <a target='_blank' href="https://drive.google.com/open?id=1lxBDjcMeqOcLzemsQdVkFZYCO1wdR6qD">
-                        <img src="http://miolife.org/wp-content/uploads/2019/06/ft-1-600x600.png" alt="" />
+                        <img src={PhysImg} alt="Терапия" />
                         </a>
                     </div>
                 </div>
-                </Container>
-        </div>
+                </div>
     )
 }
 

@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from "react";
 import {Col, Row, Container} from "react-bootstrap"
 import './family_training.css'
+import FamilyGif1 from '../../img/famtran1.jpg'
+import FamilyGif2 from '../../img/famTran2.jpg'
 
 const FamilyTraining =()=>{
 
@@ -19,27 +21,25 @@ const FamilyTraining =()=>{
     }
 
     return(
-        <div className="family_training_wrapper">
+        <div className="family_training_wrapper understanding_dushen_wrapper">
              {exitPanel('Керівництво для сімей та професіоналів','/main','Про Нас ', '  Керівництво для сімей та професіоналів')}
-             <Container>
-                    <p className='p_respirator' >У цих двох брошурах узагальнені результати міжнародної угоди з питань лікування та організації медичної допомоги хворим м’язовою дистрофією Дюшена (МДД).</p>
+             <div className="diagnostic_page_text"> 
+                    <p>У цих двох брошурах узагальнені результати міжнародної угоди з питань лікування та організації медичної допомоги хворим м’язовою дистрофією Дюшена (МДД).</p>
                   
                 <div className="img_respirator">
                     <div>
-                    <p>Керівництво для сімей</p>
                    <a target='_blank'  href="https://drive.google.com/open?id=1JI7z3lkAtWLVXN4dROYT6uOSJ4y4cmUV">
-                       <img src="http://miolife.org/wp-content/uploads/2019/06/1FamilyGuide-1-600x600.jpg" alt="alt" />
+                       <img src={FamilyGif2} alt="alt" />
                        </a> 
                     </div>
                     <div>
-                       <p>Керівництво для професіоналів</p>
                        <a target='_blank'  href="https://drive.google.com/open?id=1RSkXv79nBfu4_2cMnp8Hs7ASYADlBr5Z">
-                    <img  src="http://miolife.org/wp-content/uploads/2019/06/2FamilyGuide-600x600.jpg" alt="alt" />
+                    <img  src={FamilyGif1} alt="alt" />
                        </a>
                     </div>
                 </div>
 
-</Container>
+             </div>
         </div>
     )
 }

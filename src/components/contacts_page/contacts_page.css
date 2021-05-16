@@ -1,0 +1,193 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+
+
+
+
+.contacts_page_wrapper {
+    width: 99vw;
+    /* height: 70vh; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.contacts_information {
+    align-items: center;
+    /* border: 1px solid #000; */
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+
+}
+
+.mail_plus_adress {
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts_information p {
+    margin-left: 4%;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Spectral', serif;
+    font-size: 1.4rem;  
+}
+
+.contacts_numbers {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid #000; */
+}
+
+.contacts_numbers h4 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Caveat', cursive;
+    color: #E30B5D;
+}
+
+.mail{
+    width: 80px;
+}
+.img_ukraine {
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.img_ukraine_img {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_text_img {
+    width: 70%;
+}
+
+.phone_numbers {
+    margin-top: 4%;
+    margin-left: 3%;
+    display: flex;
+    font-size: 1.4rem;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.material-icons {
+    width: 100px;
+}
+
+.phone_numbers a {
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 2rem;
+    font-family: 'Caveat', cursive;
+    color: black;
+}
+
+.address {
+    font-size: 2rem!important;
+    font-family: 'Caveat', cursive!important;
+    color: black;
+}
+.phone_numbers a:hover {
+    transition: all .5s;
+    color: #db406e;
+} 
+
+.social_social {
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts_text_donate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+
+}
+
+.contacts_mini_info {
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Spectral', serif;
+    font-size: 1.2rem;
+    margin-bottom: 10%;
+    /* border: 1px solid red; */
+}
+
+.img_text_img h4 {
+    font-size: 2rem;
+    font-family: 'Caveat', cursive;
+    color: #E30B5D;
+}
+
+.contacts_mini_info h4 {
+    font-size: 2rem;
+    font-family: 'Caveat', cursive;
+    color: #E30B5D;
+        margin-bottom: 3%;
+}
+.social_contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+}
+
+.social_contacts p {
+    
+    font-size: 2rem;
+    font-family: 'Caveat', cursive;
+    color: #E30B5D;
+}
+
+
+
+.youtube a:hover {background: #c4302b; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #ff7979; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+
+
+@media screen and (max-width: 990px){
+    .mail_plus_adress{
+        flex-direction: column;
+      }
+}

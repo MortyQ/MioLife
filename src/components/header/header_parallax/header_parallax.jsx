@@ -10,7 +10,7 @@ const HeaderParallax  =()=>{
 
 
     return (
-        <Parallax  className="header_main_img" bgImage={head} strength={400} >
+        <Parallax  className="header_main_img" bgImage={head} strength={600} >
 
                 <div  className="header_main_img_div " >    
 

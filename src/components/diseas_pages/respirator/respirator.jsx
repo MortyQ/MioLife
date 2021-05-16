@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
 import {Col, Row, Container} from "react-bootstrap"
+import FotoRespirator from '../../img/respirator.jpg'
+import FotoRespirator1 from '../../img/respirator1.jpg'
 import './respirator.css'
 
 
@@ -21,21 +23,21 @@ const Respirator =()=>{
 
 
     return(
-        <div className="respirator_wrapper">
-             {exitPanel('RESPIRATOR','/main','Про Нас ', '  Рекомендації з харчування')}
-             <Container>
+        <div className="respirator_wrapper understanding_dushen_wrapper">
+             {exitPanel('Респіраторна підтримка','/main','Про Нас ', '  Респіраторна підтримка')}
+             <div className="diagnostic_page_text"> 
                     <p className='p_respirator' >У цих брошурах, підготовлених італійською батьківською асоціацією Дюшенна (Duchenne Parent Project Onlus), ви знайдете багато корисної інформації про те, як правильно і своєчасно надавати респіраторну підтримку пацієнтам з МДД.</p>
   
                 <div className="img_respirator">
                    <a target='_blank'  href="https://drive.google.com/file/d/1eGC6oEB_tUCrj3BEPejTnUVtsFLt-OMU/view">
-                       <img src="http://miolife.org/wp-content/uploads/2019/06/rp2-1-600x600.png" alt="alt" />
+                       <img src={FotoRespirator} alt="alt" />
                        </a> 
                        <a target='_blank' href="https://drive.google.com/file/d/1g2i6vnO2FU01KtQY48_eSiRPBLh5bB2p/view">
-                    <img  src="http://miolife.org/wp-content/uploads/2019/06/rp1-1-600x600.png" alt="alt" />
+                    <img  src= {FotoRespirator1} alt="alt" />
                        </a>
                 </div>
 
-</Container>
+</div>
         </div>
     )
 }

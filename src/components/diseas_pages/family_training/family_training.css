@@ -1,7 +1,17 @@
 .img_respirator img {
-    margin-right: 25px;
+    width: 100%;
 }
 
-.img_respirator p {
-    font-size: 1.4rem;
+
+.img_respirator {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.img_respirator div{
+    margin-left: 7%;
+    width: 40%;
+    display: flex;
+    
 }

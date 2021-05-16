@@ -22,8 +22,8 @@ const UnderstandingDushen =()=>{
     return(
         <div className="understanding_dushen_wrapper">
              {exitPanel('Розуміння М’язової дистрофії Дюшена','/main','Про Нас ', '  Розуміння М’язової дистрофії Дюшена')}
-             <Container>
-                    <div className="understanding_dushen_text">
+             <div className="diagnostic_page_text"> 
+                
                         <h4>
                         М’язова дистрофія Дюшена
                         </h4>
@@ -51,7 +51,7 @@ const UnderstandingDushen =()=>{
                        <img src="http://miolife.org/wp-content/uploads/2019/06/a4-05-2stor-02-768x1086.jpg" alt="alt" />  
                     <img  src="http://miolife.org/wp-content/uploads/2019/06/a4-05-1stor-01.jpg" alt="alt" />
                 </div>
-                </Container>
+                
         </div>
     )
 }

@@ -1,7 +1,6 @@
 .main_wrapper {
     padding-top: 3%;
     width: 99vw;
-    height: 70vh;
     display: flex;
     background:#fff6d4, rgb(255, 246, 212), cmyk(0, 4, 17, 0);
     align-items: flex-start;
@@ -17,12 +16,15 @@
     width: 50vw;
     margin: 0;
     padding: 0;
-    max-width: 70vw;
+    max-width: 45vw;
     text-align: flex-start;
-    font-size: 1.6rem;
-    font-family: 'Bad Script', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: bold;
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Spectral', serif;
+    font-size: 1.5rem;
 }
 
 .main_wrapper_content {

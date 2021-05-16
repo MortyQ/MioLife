@@ -12,3 +12,17 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
+
+
+.img_recomended_food_1 {
+    width: 50%;
+
+}
+
+.img_recomended_food_2 {
+    width: 50%;
+}
+
+.img_recomended_food img {
+    width: 75%;
+}

@@ -1,3 +1,20 @@
+.img_phys_theraph {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.img_phys_theraph_h4_text {
+    width: 30%;
+    margin-right: 3%;
+    
+}
+
 .img_phys_theraph img {
     width: 100%;
+}
+
+.img_phys_theraph a{
+    max-width:40%;
 }
